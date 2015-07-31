@@ -6,6 +6,9 @@
         { "type": "Feature",
           "geometry": {"type": "Point", "coordinates": [4.30805, 44.4473]}
         },
+        { "type": "Feature",
+          "geometry": {"type": "Point", "coordinates": [4.535555555555556, 43.94722222222222]}
+        },
       { "type": "Feature",
         "geometry": {
           "type": "LineString",
