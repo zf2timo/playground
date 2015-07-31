@@ -1,38 +1,53 @@
-{ "type": "FeatureCollection",
-    "features": [
-      { "type": "Feature",
-        "geometry": {"type": "Point", "coordinates": [4.40661, 44.3891]}
-        },
-        { "type": "Feature",
-          "geometry": {"type": "Point", "coordinates": [4.30805, 44.4473]}
-        },
-        { "type": "Feature",
-          "geometry": {"type": "Point", "coordinates": [4.535555555555556, 43.94722222222222]}
-        },
-      { "type": "Feature",
-        "geometry": {
-          "type": "LineString",
-          "coordinates": [
-            [102.0, 0.0], [103.0, 1.0], [104.0, 0.0], [105.0, 1.0]
-            ]
-          },
-        "properties": {
-          "prop0": "value0",
-          "prop1": 0.0
-          }
-        },
-      { "type": "Feature",
-         "geometry": {
-           "type": "Polygon",
-           "coordinates": [
-             [ [100.0, 0.0], [101.0, 0.0], [101.0, 1.0],
-               [100.0, 1.0], [100.0, 0.0] ]
-             ]
-         },
-         "properties": {
-           "prop0": "value0",
-           "prop1": {"this": "that"}
-           }
-         }
-       ]
-     }
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.40661,
+          44.3891
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.30805,
+          44.4473
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.535555555555556,
+          43.94722222222222
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#006bd7",
+        "marker-size": "medium",
+        "marker-symbol": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.3560791015625,
+          43.83700326552683
+        ]
+      }
+    }
+  ]
+}
